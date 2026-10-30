@@ -1,7 +1,7 @@
 // ✏️ EDITA ESTE ARCHIVO: es el único que necesitas tocar.
 window.GIFT = {
-  title: "Feliz cumpleaños, Mi Amor",
-  finalMessage: "Cada flor es un día contigo. Gracias por hacerme florecer. Te amo.",
+  title: "Feliz cumpleaños, Nana <3 ",
+  finalMessage: "El amor se debe de sentir como estar acostado bajo un árbol y ver sus hojas.",
   // Una flor por foto. Agrega o quita líneas y el árbol se ajusta solo.
   photos: [
     { src: "img/01.jpeg", caption: "Esa fue la mejor cena de mi vida, y tambien la mas cara" },
