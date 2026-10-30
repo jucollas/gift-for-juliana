@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Para ti</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@1,9..144,300;1,9..144,500&family=Caveat:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="petals" aria-hidden="true"></div>
+
+  <header>
+    <h1 id="title"></h1>
+    <p id="hint">Toca una flor</p>
+  </header>
+
+  <main>
+    <svg id="tree" viewBox="0 0 800 820" role="group" aria-label="Árbol de recuerdos"></svg>
+  </main>
+
+  <p id="progress" aria-live="polite"></p>
+  <p id="final" hidden></p>
+
+  <dialog id="modal">
+    <figure>
+      <img id="photo" alt="">
+      <figcaption id="caption"></figcaption>
+    </figure>
+    <button class="nav prev" aria-label="Anterior">‹</button>
+    <button class="nav next" aria-label="Siguiente">›</button>
+    <button class="close" aria-label="Cerrar">×</button>
+  </dialog>
+
+  <script src="js/photos.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,2 @@
+Pon aqui tus fotos con los nombres de js/photos.js (01.jpg, 02.jpg, ...).
+Consejo: reducelas a ~1200 px de ancho y menos de 300 KB (squoosh.app).
